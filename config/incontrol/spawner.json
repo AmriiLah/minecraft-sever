@@ -1,0 +1,303 @@
+[
+	{
+		"mob": ["minecraft:zombie", "minecraft:husk"],
+		"persecond": 0.15,
+		"attempts": 30,
+		"amount": {
+		  "minimum": 1,
+		  "maximum": 4,
+		  "groupdistance": 3
+		},
+		"conditions": {
+		  "dimension": "minecraft:overworld",
+		  "norestrictions": true,
+		  "mindist": 20,
+		  "maxdist": 200,
+		  "minheight": 45,
+		  "maxheight": 300
+		}
+	},
+	{
+		"mob": "minecraft:husk",
+		"persecond": 0.1,
+		"attempts": 30,
+		"amount": {
+		  "minimum": 1,
+		  "maximum": 2,
+		  "groupdistance": 3
+		},
+		"conditions": {
+		  "dimension": "minecraft:overworld",
+		  "norestrictions": true,
+		  "mindist": 15,
+		  "maxdist": 200,
+		  "minheight": -64,
+		  "maxheight": 45
+		}
+	},
+	{
+		"mob": "minecraft:hoglin",
+		"persecond": 0.1,
+		"attempts": 20,
+		"amount": {
+		  "minimum": 1,
+		  "maximum": 3,
+		  "groupdistance": 3
+		},
+		"conditions": {
+			"dimension": "minecraft:overworld",
+			"norestrictions": true,
+			"mindist": 20,
+			"maxdist": 200,
+			"minheight": 45,
+			"maxheight": 150
+		}
+	},
+	{
+		"mob": "quark:shiba",
+		"persecond": 0.001,
+		"attempts": 10,
+		"conditions": {
+		"dimension": "minecraft:overworld",
+			"norestrictions": true,
+			"mindist": 5,
+			"maxdist": 200,
+			"minheight": 71,
+			"maxheight": 300
+		}
+	},
+	{
+		"mob": "minecraft:wandering_trader",
+		"persecond": 0.001,
+		"attempts": 1,
+		"conditions": {
+		"dimension": "minecraft:overworld",
+			"norestrictions": true,
+			"mindist": 15,
+			"maxdist": 40,
+			"minheight": 45,
+			"maxheight": 300,
+			"maxlocal": 1
+		}
+	},
+	{
+		"mob": ["minecraft:pillager", "minecraft:vindicator"],
+		"persecond": 0.005,
+		"attempts": 20,
+		"amount": {
+		  "minimum": 1,
+		  "maximum": 2,
+		  "groupdistance": 1
+		},
+		"conditions": {
+		  "dimension": "minecraft:overworld",
+		  "norestrictions": true,
+		  "mindist": 10,
+		  "maxdist": 200,
+		  "minheight": 71,
+		  "maxheight": 300
+		}
+	},
+	{
+		"mob": "minecraft:villager",
+		"persecond": 0.0025,
+		"attempts": 20,
+		"amount": {
+		  "minimum": 1,
+		  "maximum": 2,
+		  "groupdistance": 1
+		},
+		"conditions": {
+		  "dimension": "minecraft:overworld",
+		  "norestrictions": true,
+		  "mindist": 10,
+		  "maxdist": 200,
+		  "minheight": 71,
+		  "maxheight": 300
+		}
+	},
+	{
+		"mob": ["apocalypsenow:survivor_1",
+				"apocalypsenow:survivor_2",
+				"apocalypsenow:survivor_3",
+				"apocalypsenow:survivor_4",
+				"apocalypsenow:survivor_5",
+				"apocalypsenow:survivor_6",
+				"apocalypsenow:survivor_7",
+				"apocalypsenow:survivor_8",
+				"apocalypsenow:survivor_9",
+				"apocalypsenow:survivor_10",
+				"apocalypsenow:survivor_11"],
+		"persecond": 0.0025,
+		"attempts": 20,
+		"amount": {
+		  "minimum": 1,
+		  "maximum": 3,
+		  "groupdistance": 1
+		},
+		"conditions": {
+		  "dimension": "minecraft:overworld",
+		  "norestrictions": true,
+		  "mindist": 10,
+		  "maxdist": 200,
+		  "minheight": 71,
+		  "maxheight": 300
+		}
+	},
+	{
+		"mob": ["mutationcraft:assimilated_bear",
+				"mutationcraft:assimilated_cow",
+				"mutationcraft:assimilated_donkey",
+				"mutationcraft:assimilated_horse",
+				"mutationcraft:assimilated_fox",
+				"mutationcraft:assimilated_sheep",
+				"mutationcraft:assimilated_villager",
+				"mutationcraft:assimilated_wolf",
+				"mutationcraft:assimilated_roamer",
+				"mutationcraft:developed_roamer"],
+		"persecond": 0.65,
+		"attempts": 20,
+		"amount": {
+		  "minimum": 1,
+		  "maximum": 3,
+		  "groupdistance": 5
+		},
+		"conditions": {
+		  "dimension": "minecraft:overworld",
+		  "norestrictions": true,
+		  "mindist": 25,
+		  "maxdist": 200,
+		  "minheight": 45,
+		  "maxheight": 300
+		}
+	},
+	{
+		"mob": ["mutationcraft:parasitic_shooter"],
+		"persecond": 0.05,
+		"attempts": 20,
+		"conditions": {
+		  "dimension": "minecraft:overworld",
+		  "norestrictions": true,
+		  "inair": true,
+		  "mindist": 30,
+		  "maxdist": 200,
+		  "minheight": 80,
+		  "maxheight": 300
+		}
+	},
+	{
+		"mob": ["mutationcraft:assimilated_jockey",
+				"mutationcraft:reductor"],
+		"persecond": 0.1,
+		"attempts": 20,
+		"conditions": {
+		  "dimension": "minecraft:overworld",
+		  "norestrictions": true,
+		  "mindist": 30,
+		  "maxdist": 200,
+		  "minheight": 61,
+		  "maxheight": 300
+		}
+	},
+	{
+		"mob": ["mutationcraft:assimilated_human",
+				"mutationcraft:human_stage_1",
+				"mutationcraft:human_stage_2",
+				"mutationcraft:human_stage_3"],
+		"persecond": 0.5,
+		"attempts": 20,
+		"amount": {
+		  "minimum": 1,
+		  "maximum": 2,
+		  "groupdistance": 5
+		},
+		"conditions": {
+		  "dimension": "minecraft:overworld",
+		  "norestrictions": true,
+		  "mindist": 25,
+		  "maxdist": 200,
+		  "minheight": 45,
+		  "maxheight": 300
+		}
+	},
+	{
+		"mob": ["undead_revamp2:thepregnant",
+				"undead_revamp2:theordure",
+				"undead_revamp2:the_moonflower",
+				"undead_revamp2:thesmoker",
+				"undead_revamp2:thehunter",
+				"undead_revamp2:bomber",
+				"undead_revamp2:thespitter"],
+		"persecond": 0.4,
+		"attempts": 25,
+		"conditions": {
+		  "dimension": "minecraft:overworld",
+		  "norestrictions": true,
+		  "mindist": 10,
+		  "maxdist": 200,
+		  "minheight": 45,
+		  "maxheight": 300
+		}
+	},
+	{
+		"mob": "mutationcraft:resenter",
+		"persecond": 0.05,
+		"attempts": 10,
+		"conditions": {
+		  "dimension": "minecraft:overworld",
+		  "norestrictions": true,
+		  "mindist": 20,
+		  "maxdist": 240,
+		  "minheight": 61,
+		  "maxheight": 300,
+		  "maxlocal": 1
+		}
+	},
+	{
+		"mob": "mutationcraft:human_herder",
+		"persecond": 0.1,
+		"attempts": 15,
+		"conditions": {
+		  "dimension": "minecraft:overworld",
+		  "norestrictions": true,
+		  "mindist": 5,
+		  "maxdist": 240,
+		  "minheight": 125,
+		  "maxheight": 171,
+		  "maxlocal": 1
+		}
+	},
+	{
+		"mob": "mutationcraft:the_intoxicator",
+		"persecond": 0.005,
+		"attempts": 10,
+		"conditions": {
+		  "dimension": "minecraft:overworld",
+		  "norestrictions": true,
+		  "mindist": 25,
+		  "maxdist": 240,
+		  "minheight": 45,
+		  "maxheight": 300,
+		  "maxlocal": 1
+		}
+	},
+	{
+		"mob": "minecraft:blaze",
+		"persecond": 0.5,
+		"attempts": 30,
+		"amount": {
+		  "minimum": 1,
+		  "maximum": 2,
+		  "groupdistance": 2
+		},
+		"conditions": {
+		  "dimension": "minecraft:overworld",
+		  "norestrictions": true,
+		  "mindist": 25,
+		  "maxdist": 180,
+		  "minheight": 45,
+		  "maxheight": 300,
+		  "maxlocal": 20
+		}
+	}
+]

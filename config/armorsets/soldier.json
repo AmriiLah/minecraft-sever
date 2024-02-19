@@ -1,0 +1,57 @@
+{
+  "armorSetName": "Soldier",
+  "head": {
+    "itemKey": "apocalypsenow:soldier_helmet",
+    "mixAndMatch": [
+      "apocalypsenow:spec_ops_helmet"
+    ]
+  },
+  "chest": {
+    "itemKey": "apocalypsenow:soldier_chestplate"
+  },
+  "legs": {
+    "itemKey": "apocalypsenow:soldier_leggings"
+  },
+  "boots": {
+    "itemKey": "apocalypsenow:soldier_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 2.0,
+      "interactionType": "self",
+      "attributeOperation": 0,
+      "modifierUUID": "395b34be-438d-43db-bdee-6f8c4b5b2081",
+      "description": "§a Grants 2.0 Melee Damage",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.4,
+      "interactionType": "self",
+      "attributeOperation": 0,
+      "modifierUUID": "1b6676cf-8403-4f4f-bf13-951f9d48014c",
+      "description": "§a Grants 0.4 Attack Speed",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:resistance",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 100.0,
+      "description": "§a Grants 10% Damage Resistance",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:weakness",
+      "interactionType": "immunity",
+      "description": "§6 Grants Weakness Immunity",
+      "onlyImmuneToNewEffects": true
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

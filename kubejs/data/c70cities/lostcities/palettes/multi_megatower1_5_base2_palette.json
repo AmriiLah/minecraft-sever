@@ -1,0 +1,62 @@
+{
+  "name": "multi_megatower1_5_base2_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:stone"
+    },
+    {
+      "char": "c",
+      "block": "car:line_side_long_left[facing=west]"
+    },
+    {
+      "char": "d",
+      "block": "car:line_side_long_left[facing=north]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "summon falling_block ~ ~2 ~ {Time:1,BlockState:{Name:\"command_block\"},TileEntityData:{auto:1,Command:\"summon car:car ~-0.5 ~1 ~\"},Passengers:[{id:\"armor_stand\",Health:0,Passengers:[{id:\"falling_block\",Time:1,BlockState:{Name:\"command_block\"},TileEntityData:{auto:1,Command:\"fill ~ ~-2 ~ ~ ~ ~ air\"}}]}]}"
+      }
+    },
+    {
+      "char": "f",
+      "block": "car:line_side_long_left[facing=south]"
+    },
+    {
+      "char": "g",
+      "block": "car:line_side_long_left[facing=east]"
+    },
+    {
+      "char": "h",
+      "block": "embellishcraft:basalt_button[face=wall,facing=south]"
+    },
+    {
+      "char": "i",
+      "block": "embellishcraft:basalt_button[face=wall,facing=north]"
+    },
+    {
+      "char": "j",
+      "block": "simplylight:wall_lamp[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:stone_brick_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:redstone_wall_torch[lit=true,facing=south]"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
+    }
+  ]
+}

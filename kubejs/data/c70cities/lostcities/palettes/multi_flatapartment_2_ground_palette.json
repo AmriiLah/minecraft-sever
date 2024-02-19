@@ -1,0 +1,82 @@
+{
+  "name": "multi_flatapartment_2_ground_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "b",
+      "block": "cfm:spruce_hedge[waterlogged=false]"
+    },
+    {
+      "char": "c",
+      "block": "simplylight:lamp_post[waterlogged=false,position=bottom]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:quartz_pillar[axis=y]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:stone_button[face=floor,facing=north]"
+    },
+    {
+      "char": "f",
+      "block": "car:line_side_long_left[facing=west]"
+    },
+    {
+      "char": "g",
+      "block": "car:line_side_long_left[facing=north]"
+    },
+    {
+      "char": "h",
+      "block": "car:line_side_long_left[facing=south]"
+    },
+    {
+      "char": "i",
+      "block": "car:line_side_long_left[facing=east]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:stone_button[face=floor,facing=east]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:command_block[conditional=false,facing=south]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "summon falling_block ~ ~2 ~ {Time:1,BlockState:{Name:\"command_block\"},TileEntityData:{auto:1,Command:\"summon car:car ~-0.5 ~1 ~\"},Passengers:[{id:\"armor_stand\",Health:0,Passengers:[{id:\"falling_block\",Time:1,BlockState:{Name:\"command_block\"},TileEntityData:{auto:1,Command:\"fill ~ ~-2 ~ ~ ~ ~ air\"}}]}]}"
+      }
+    },
+    {
+      "char": "l",
+      "block": "minecraft:stone_button[face=floor,facing=south]"
+    },
+    {
+      "char": "m",
+      "block": "simplylight:lamp_post[waterlogged=false,position=middle]"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:smooth_quartz"
+    },
+    {
+      "char": "o",
+      "block": "simplylight:lamp_post[waterlogged=false,position=top]"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:stone_brick_wall[waterlogged=false,up=true]"
+    }
+  ]
+}

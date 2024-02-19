@@ -1,0 +1,86 @@
+{
+  "name": "multi_convenientstore_2_ground_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:stone"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:fern"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "e",
+      "block": "car:line_side_long_left[facing=north]"
+    },
+    {
+      "char": "f",
+      "block": "car:line_side_long_left[facing=west]"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "summon falling_block ~ ~2 ~ {Time:1,BlockState:{Name:\"command_block\"},TileEntityData:{auto:1,Command:\"summon car:car ~-0.5 ~1 ~\"},Passengers:[{id:\"armor_stand\",Health:0,Passengers:[{id:\"falling_block\",Time:1,BlockState:{Name:\"command_block\"},TileEntityData:{auto:1,Command:\"fill ~ ~-2 ~ ~ ~ ~ air\"}}]}]}"
+      }
+    },
+    {
+      "char": "h",
+      "block": "car:line_side_long_left[facing=east]"
+    },
+    {
+      "char": "i",
+      "block": "car:line_side_long_left[facing=south]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:iron_bars[waterlogged=false]"
+    },
+    {
+      "char": "k",
+      "block": "immersivepetroleum:asphalt_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "l",
+      "block": "quark:limestone_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "m",
+      "block": "quark:smooth_quartz_vertical_slab[waterlogged=false,type=west]"
+    },
+    {
+      "char": "n",
+      "block": "cfm:gray_picket_fence[waterlogged=false]"
+    },
+    {
+      "char": "o",
+      "block": "embellishcraft:smooth_marble"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:smooth_quartz"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+    }
+  ]
+}

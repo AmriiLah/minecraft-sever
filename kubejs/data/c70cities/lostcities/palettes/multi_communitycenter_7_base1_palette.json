@@ -1,0 +1,84 @@
+{
+  "name": "multi_communitycenter_7_base1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "summon falling_block ~ ~2 ~ {Time:1,BlockState:{Name:\"command_block\"},TileEntityData:{auto:1,Command:\"summon car:car ~-0.5 ~1 ~\"},Passengers:[{id:\"armor_stand\",Health:0,Passengers:[{id:\"falling_block\",Time:1,BlockState:{Name:\"command_block\"},TileEntityData:{auto:1,Command:\"fill ~ ~-2 ~ ~ ~ ~ air\"}}]}]}"
+      }
+    },
+    {
+      "char": "b",
+      "block": "minecraft:stone_button[face=floor,facing=east]"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:stone_button[face=floor,facing=west]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:cobweb"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:stone"
+    },
+    {
+      "char": "f",
+      "block": "car:line_side_long_left[facing=east]"
+    },
+    {
+      "char": "g",
+      "block": "car:line_side_long_left[facing=south]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:ender_chest[waterlogged=false,facing=north]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "i",
+      "block": "lootr:lootr_chest[waterlogged=false,facing=north,type=single]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "j",
+      "block": "car:line_side_long_left[facing=north]"
+    },
+    {
+      "char": "k",
+      "block": "car:line_side_long_left[facing=west]"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "m",
+      "block": "immersivepetroleum:asphalt_stair[waterlogged=false,half=bottom,shape=straight,facing=north]"
+    },
+    {
+      "char": "n",
+      "block": "immersivepetroleum:asphalt_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "o",
+      "block": "simplylight:illuminant_panel[waterlogged=false,facing=down]"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:iron_bars[waterlogged=false]"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:stone_slab[waterlogged=false,type=top]"
+    }
+  ]
+}

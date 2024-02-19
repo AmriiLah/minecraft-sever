@@ -1,0 +1,22 @@
+{
+	version: 1
+	uuid: "7901852db8da45c2840505a193f3cb20"
+	name: "AmriiCuy"
+	can_edit: false
+	lock: false
+	auto_pin: false
+	chapter_pinned: false
+	rewards_blocked: false
+	task_progress: {
+		7CE16FEEA03DBE1F: 1
+	}
+	started: {
+		7CE16FEEA03DBE1F: 1708343171972L
+		4523079E2318BD94: 1708343171972L
+		2583DDB195B6CFEA: 1708343171972L
+		0000000000000001: 1708343171972L
+	}
+	completed: { }
+	claimed_rewards: { }
+	pinned_quests: [ ]
+}

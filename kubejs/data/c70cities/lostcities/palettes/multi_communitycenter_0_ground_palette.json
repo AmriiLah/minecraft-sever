@@ -1,0 +1,109 @@
+{
+  "name": "multi_communitycenter_0_ground_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "embellishcraft:polished_paving"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:quartz_block"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:moss_block"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:dirt"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:birch_planks"
+    },
+    {
+      "char": "f",
+      "block": "create:cut_calcite"
+    },
+    {
+      "char": "g",
+      "block": "cfm:andesite_table[waterlogged=false]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:lectern[facing=south]"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:birch_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:red_carpet"
+    },
+    {
+      "char": "k",
+      "block": "another_furniture:white_stool[waterlogged=false]"
+    },
+    {
+      "char": "l",
+      "block": "create:cut_calcite_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:dark_oak_leaves"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:dead_bush"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:bookshelf"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:cobweb"
+    },
+    {
+      "char": "r",
+      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "s",
+      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "t",
+      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "u",
+      "block": "lootr:lootr_chest[waterlogged=false,facing=south,type=single]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "w",
+      "block": "minecraft:stone_pressure_plate"
+    },
+    {
+      "char": "x",
+      "block": "minecraft:stripped_dark_oak_log[axis=y]"
+    },
+    {
+      "char": "y",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "A",
+      "block": "create:vertical_framed_glass_pane[waterlogged=false]"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "name": "multi_hospital_0_base2_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:cyan_terracotta"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:smooth_quartz"
+    },
+    {
+      "char": "c",
+      "block": "create:redstone_contact[facing=north]"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:dirt"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:quartz_block"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "g",
+      "block": "embellishcraft:basalt_large_bricks"
+    },
+    {
+      "char": "h",
+      "block": "cfm:stone_chair[waterlogged=false,facing=north]"
+    },
+    {
+      "char": "i",
+      "block": "cfm:stone_chair[waterlogged=false,facing=west]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:white_concrete"
+    },
+    {
+      "char": "k",
+      "block": "cfm:stone_chair[waterlogged=false,facing=east]"
+    },
+    {
+      "char": "l",
+      "block": "cfm:stone_chair[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "m",
+      "block": "create:contraption_controls[waterlogged=false,facing=east,open=false]",
+      "tag": {
+        "id": "create:contraption_controls"
+      }
+    },
+    {
+      "char": "n",
+      "block": "embellishcraft:white_steel_door[hinge=left,half=lower,facing=east,open=false]"
+    },
+    {
+      "char": "o",
+      "block": "embellishcraft:white_steel_door[hinge=right,half=lower,facing=east,open=false]"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:bookshelf"
+    },
+    {
+      "char": "q",
+      "block": "arsenals_of_the_apocalypse:medical_storage",
+      "loot": "chestloot"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:heavy_weighted_pressure_plate"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:daylight_detector"
+    },
+    {
+      "char": "t",
+      "block": "minecraft:brewing_stand"
+    },
+    {
+      "char": "u",
+      "block": "embellishcraft:white_steel_door[hinge=left,half=upper,facing=east,open=false]"
+    },
+    {
+      "char": "w",
+      "block": "embellishcraft:white_steel_door[hinge=right,half=upper,facing=east,open=false]"
+    },
+    {
+      "char": "x",
+      "block": "quark:iron_button[face=wall,facing=east]"
+    },
+    {
+      "char": "y",
+      "block": "minecraft:comparator[facing=west]"
+    },
+    {
+      "char": "A",
+      "block": "quark:smooth_stone_vertical_slab[waterlogged=false,type=east]"
+    },
+    {
+      "char": "B",
+      "block": "minecraft:smooth_quartz_slab[waterlogged=false,type=top]"
+    }
+  ]
+}

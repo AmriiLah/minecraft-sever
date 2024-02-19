@@ -1,0 +1,142 @@
+{
+  "crossbowverhaul:recipes/combat/bolt_netherite": {
+    "criteria": {
+      "has_feather": "2024-02-19 18:46:11 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/root": {
+    "criteria": {
+      "lavender_field": "2024-02-19 18:46:03 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2024-02-19 18:46:11 +0700"
+    },
+    "done": true
+  },
+  "betterdungeons:root": {
+    "criteria": {
+      "always": "2024-02-19 18:46:11 +0700"
+    },
+    "done": true
+  },
+  "cold_sweat:recipes/waterskin": {
+    "criteria": {
+      "has_recipe": "2024-02-19 18:46:03 +0700"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2024-02-19 18:46:11 +0700"
+    },
+    "done": true
+  },
+  "naturescompass:natures_compass_log": {
+    "criteria": {
+      "has_recipe": "2024-02-19 18:46:03 +0700"
+    },
+    "done": true
+  },
+  "explorerscompass:explorers_compass_cracked_stone_bricks": {
+    "criteria": {
+      "has_recipe": "2024-02-19 18:46:03 +0700"
+    },
+    "done": true
+  },
+  "lootr:root": {
+    "criteria": {
+      "always_true": "2024-02-19 18:46:11 +0700"
+    },
+    "done": true
+  },
+  "ag_day_counter:day_counter_root_advancement": {
+    "criteria": {
+      "day_counter_root_advancement": "2024-02-19 18:46:11 +0700"
+    },
+    "done": true
+  },
+  "naturescompass:natures_compass_sapling": {
+    "criteria": {
+      "has_recipe": "2024-02-19 18:46:03 +0700"
+    },
+    "done": true
+  },
+  "cold_sweat:recipes/thermolith": {
+    "criteria": {
+      "has_recipe": "2024-02-19 18:46:03 +0700"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/main_root": {
+    "criteria": {
+      "has_item": "2024-02-19 18:46:11 +0700"
+    },
+    "done": true
+  },
+  "cold_sweat:recipes/thermometer": {
+    "criteria": {
+      "has_recipe": "2024-02-19 18:46:03 +0700"
+    },
+    "done": true
+  },
+  "naturescompass:natures_compass": {
+    "criteria": {
+      "has_recipe": "2024-02-19 18:46:03 +0700"
+    },
+    "done": true
+  },
+  "crossbowverhaul:recipes/combat/bolt_explosive": {
+    "criteria": {
+      "has_blazepowder": "2024-02-19 18:46:11 +0700",
+      "has_bolt": "2024-02-19 18:46:11 +0700"
+    },
+    "done": true
+  },
+  "cold_sweat:root": {
+    "criteria": {
+      "requirement": "2024-02-19 18:46:11 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "lavender_field": "2024-02-19 18:46:03 +0700"
+    },
+    "done": false
+  },
+  "explorerscompass:explorers_compass_cobweb": {
+    "criteria": {
+      "has_recipe": "2024-02-19 18:46:03 +0700"
+    },
+    "done": true
+  },
+  "explorerscompass:explorers_compass": {
+    "criteria": {
+      "has_recipe": "2024-02-19 18:46:03 +0700"
+    },
+    "done": true
+  },
+  "undead_revamp2:theundeadchallenges": {
+    "criteria": {
+      "theundeadchallenges": "2024-02-19 18:46:11 +0700"
+    },
+    "done": true
+  },
+  "crossbowverhaul:recipes/combat/crossbow_netherite": {
+    "criteria": {
+      "has_crossbow": "2024-02-19 18:46:11 +0700"
+    },
+    "done": true
+  },
+  "parcool:grant_parcool_guide": {
+    "criteria": {
+      "tick": "2024-02-19 18:46:11 +0700"
+    },
+    "done": true
+  },
+  "DataVersion": 2975
+}

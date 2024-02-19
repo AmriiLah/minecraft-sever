@@ -1,0 +1,60 @@
+{
+  "armorSetName": "S.W.A.T Riot",
+  "head": {
+    "itemKey": "apocalypsenow:swatriotcontrol_helmet"
+  },
+  "chest": {
+    "itemKey": "apocalypsenow:swatriotcontrol_chestplate"
+  },
+  "legs": {
+    "itemKey": "apocalypsenow:swatriotcontrol_leggings"
+  },
+  "boots": {
+    "itemKey": "apocalypsenow:swatriotcontrol_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 1.0,
+      "interactionType": "self",
+      "attributeOperation": 0,
+      "modifierUUID": "af05cd0e-4720-45fb-9cf5-ba1c42f76885",
+      "description": "§a Grants 1.0 Melee Damage",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.5,
+      "interactionType": "self",
+      "attributeOperation": 0,
+      "modifierUUID": "0e13ec18-026b-40ab-8c45-226e773c41db",
+      "description": "§a Grants 0.5 Attack Speed",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:slowness",
+      "value": 1.0,
+      "interactionType": "attack",
+      "interactionDuration": 200.0,
+      "description": "§6 Apply Slowness Effect When Dealt Damage"
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:weakness",
+      "interactionType": "immunity",
+      "description": "§6 Grants Weakness Immunity",
+      "onlyImmuneToNewEffects": true
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:resistance",
+      "interactionType": "immunity",
+      "onlyImmuneToNewEffects": false,
+      "hideBonusDescription": true
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

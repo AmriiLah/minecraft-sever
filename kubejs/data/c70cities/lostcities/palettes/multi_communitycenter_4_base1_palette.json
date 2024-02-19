@@ -1,0 +1,42 @@
+{
+  "name": "multi_communitycenter_4_base1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "tag": {
+        "conditionMet": 1,
+        "auto": 1,
+        "Command": "summon falling_block ~ ~2 ~ {Time:1,BlockState:{Name:\"command_block\"},TileEntityData:{auto:1,Command:\"summon car:car ~-0.5 ~1 ~\"},Passengers:[{id:\"armor_stand\",Health:0,Passengers:[{id:\"falling_block\",Time:1,BlockState:{Name:\"command_block\"},TileEntityData:{auto:1,Command:\"fill ~ ~-2 ~ ~ ~ ~ air\"}}]}]}"
+      }
+    },
+    {
+      "char": "b",
+      "block": "car:line_side_long_left[facing=south]"
+    },
+    {
+      "char": "c",
+      "block": "car:line_side_long_left[facing=east]"
+    },
+    {
+      "char": "d",
+      "block": "car:line_side_long_left[facing=west]"
+    },
+    {
+      "char": "e",
+      "block": "car:line_side_long_left[facing=north]"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:smooth_stone_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:stone"
+    }
+  ]
+}

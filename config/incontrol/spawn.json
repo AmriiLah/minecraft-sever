@@ -1,0 +1,1102 @@
+[
+    {
+      "phase": "after_day1",
+      "hostile": true,
+      "result": "deny"
+    },
+    {
+      "hostile": true,
+      "dimension": "minecraft:overworld",
+      "mincount": {
+        "hostile": true,
+        "amount": 350
+      },
+      "result": "deny"
+    },
+    {
+      "hostile": true,
+      "dimension": "minecraft:overworld",
+      "mincount": {
+        "amount": 15,
+        "hostile": true,
+        "perchunk": true
+      },
+      "result": "deny"
+    },
+    {
+        "hostile": true,
+        "dimension": "minecraft:overworld",
+        "minlight": 7,
+        "maxlight": 15,
+        "result": "deny"
+    },
+    {
+      "mob": "minecraft:villager",
+      "dimension": "minecraft:overworld",
+      "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+      "result": "deny"
+    },
+    {
+        "mod": "mutationcraft",
+        "dimension": "minecraft:overworld",
+        "mincount": {
+          "mod": "mutationcraft",
+          "amount": 20,
+          "perchunk": true
+        },
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "mod": "undead_revamp2",
+        "dimension": "minecraft:overworld",
+        "mincount": {
+          "amount": 20,
+          "mod": "undead_revamp2",
+          "perchunk": true
+        },
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+      "mod": "zombiemobs",
+      "dimension": "minecraft:overworld",
+      "mincount": {
+        "mod": "zombiemobs",
+        "amount": 5,
+        "perchunk": true
+      },
+      "onjoin": true,
+      "result": "deny"
+    },
+    {
+      "mob": "minecraft:blaze",
+      "dimension": "minecraft:overworld",
+      "mincount": {
+        "mob": "minecraft:blaze",
+        "amount": 5,
+        "perchunk": true
+      },
+      "onjoin": true,
+      "result": "deny"
+    },
+    {
+      "mod": "apocalypsenow",
+      "dimension": "minecraft:overworld",
+      "mincount": {
+        "mod": "apocalypsenow",
+        "amount": 3,
+        "perchunk": true
+      },
+      "result": "deny"
+    },
+    {
+      "mod": "undead_revamp2",
+      "dimension": "minecraft:overworld",
+      "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+      "onjoin": true,
+      "result": "deny"
+    },
+    {
+      "mod": "zombiemobs",
+      "dimension": "minecraft:overworld",
+      "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+      "onjoin": true,
+      "result": "deny"
+    },
+    {
+      "mod": "zombiemobs",
+      "dimension": "minecraft:overworld",
+      "minlight": 7,
+      "maxlight": 15,
+      "onjoin": true,
+      "result": "deny"
+    },
+    {
+      "mod": "zombiemobs",
+      "dimension": "minecraft:overworld",
+      "minspawndist": 15000,
+      "onjoin": true,
+      "result": "deny"
+    },
+    {
+      "mod": "zombiemobs",
+      "dimension": "minecraft:overworld",
+      "incity": true,
+      "onjoin": true,
+      "result": "deny"
+    },
+    {
+      "mob": ["zombiemobs:zombie_llama", "zombiemobs:zombie_ocelot", "zombiemobs:zombie_cat"],
+      "dimension": "minecraft:overworld",
+      "onjoin": true,
+      "result": "deny"
+    },
+    {
+      "mod": "zombiemobs",
+      "dimension": "minecraft:overworld",
+      "onjoin": true,
+      "result": "default",
+      "speedmultiply": 0.5
+    },
+    {
+      "mod": "zombiemobs",
+      "dimension": "minecraft:overworld",
+      "minlight": 0,
+      "maxlight": 6,
+      "incity": false,
+      "seesky": true,
+      "onjoin": true,
+      "random": 0.3,
+      "result": "allow"
+    },
+    {
+      "mob": "quark:shiba",
+      "dimension": "minecraft:overworld",
+      "inbuilding": true,
+      "incity": true,
+      "minlight": 0,
+      "maxlight": 6,
+      "minheight": 71,
+      "result": "allow"
+    },
+    {
+      "mob": "minecraft:villager",
+      "dimension": "minecraft:overworld",
+      "incontrol": true,
+      "incity": true,
+      "minlight": 0,
+      "maxlight": 6,
+      "minheight": 71,
+      "result": "allow"
+    },
+    {
+      "mob": ["apocalypsenow:survivor_1",
+				"apocalypsenow:survivor_2",
+				"apocalypsenow:survivor_3",
+				"apocalypsenow:survivor_4",
+				"apocalypsenow:survivor_5",
+				"apocalypsenow:survivor_6",
+				"apocalypsenow:survivor_7",
+				"apocalypsenow:survivor_8",
+				"apocalypsenow:survivor_9",
+				"apocalypsenow:survivor_10",
+				"apocalypsenow:survivor_11"],
+      "dimension": "minecraft:overworld",
+      "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+      "result": "deny"
+    },
+    {
+      "mob": ["apocalypsenow:survivor_1",
+				"apocalypsenow:survivor_2",
+				"apocalypsenow:survivor_3",
+				"apocalypsenow:survivor_4",
+				"apocalypsenow:survivor_5",
+				"apocalypsenow:survivor_6",
+				"apocalypsenow:survivor_7",
+				"apocalypsenow:survivor_8",
+				"apocalypsenow:survivor_9",
+				"apocalypsenow:survivor_10",
+				"apocalypsenow:survivor_11"],
+      "dimension": "minecraft:overworld",
+      "inbuilding": true,
+      "minlight": 0,
+      "maxlight": 6,
+      "minheight": 71,
+      "result": "allow",
+      "healthadd": 20.0,
+      "nbt": {
+        "Attributes": [
+          {
+            "Base": 4.0,
+            "Name": "generic.armor"
+          },
+          {
+            "Base": 4.0,
+            "Name": "generic.armor_toughness"
+          }
+        ]
+      }
+    },
+    {
+      "mob": ["minecraft:pillager", "minecraft:vindicator"],
+      "dimension": "minecraft:overworld",
+      "minspawndist": 7500,
+      "incontrol": true,
+      "inbuilding": true,
+      "incity": true,
+      "minlight": 0,
+      "maxlight": 6,
+      "minheight": 71,
+      "result": "allow"
+    },
+    {
+      "mob": ["minecraft:pillager", "minecraft:vindicator"],
+      "dimension": "minecraft:overworld",
+      "result": "deny"
+    },
+    {
+      "mob": "undead_revamp2:thepregnant",
+      "dimension": "minecraft:overworld",
+      "building": [
+        "c70cities:multi_hospital_0",
+        "c70cities:multi_hospital_1",
+        "c70cities:multi_hospital_2",
+        "c70cities:multi_hospital_3"],
+      "incity": true,
+      "minlight": 0,
+      "maxlight": 6,
+      "minheight": 61,
+      "result": "allow",
+      "nbt": {
+        "Attributes": [
+          {
+            "Base": 4.0,
+            "Name": "generic.armor"
+          }
+        ]
+      }
+    },
+    {
+      "mob": "undead_revamp2:theordure",
+      "dimension": "minecraft:overworld",
+      "instreet": false,
+      "incity": true,
+      "minlight": 0,
+      "maxlight": 6,
+      "minheight": 71,
+      "result": "allow",
+      "nbt": {
+        "Attributes": [
+          {
+            "Base": 2.0,
+            "Name": "generic.armor"
+          }
+        ]
+      }
+    },
+    {
+      "mob": "undead_revamp2:thehunter",
+      "dimension": "minecraft:overworld",
+      "inbuilding": true,
+      "incity": true,
+      "minlight": 0,
+      "maxlight": 6,
+      "minheight": 61,
+      "minspawndist": 10000,
+      "result": "allow",
+      "nbt": {
+        "Attributes": [
+          {
+            "Base": 10.0,
+            "Name": "generic.armor"
+          }
+        ]
+      }
+    },
+    {
+      "mob": "undead_revamp2:thespitter",
+      "dimension": "minecraft:overworld",
+      "minlight": 0,
+      "maxlight": 6,
+      "minheight": 61,
+      "minspawndist": 10000,
+      "result": "allow",
+      "nbt": {
+        "Attributes": [
+          {
+            "Base": 4.0,
+            "Name": "generic.armor"
+          }
+        ]
+      }
+    },
+    {
+      "mob": "undead_revamp2:thespitter",
+      "dimension": "minecraft:overworld",
+      "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+      "minlight": 0,
+      "maxlight": 6,
+      "minheight": 61,
+      "result": "allow",
+      "nbt": {
+        "Attributes": [
+          {
+            "Base": 4.0,
+            "Name": "generic.armor"
+          }
+        ]
+      }
+    },
+    {
+      "mob": "undead_revamp2:the_moonflower",
+      "biome": ["biomesoplenty:mediterranean_forest",
+                "biomesoplenty:mystic_grove",
+                "biomesoplenty:cherry_blossom_grove",
+                "biomesoplenty:bamboo_grove",
+                "biomesoplenty:clover_patch",
+                "biomesoplenty:pumpkin_patch",
+                "biomesoplenty:fir_clearing",
+                "biomesoplenty:shrubland",
+                "biomesoplenty:scrubland",
+                "biomesoplenty:grassland",
+                "biomesoplenty:pasture",
+                "biomesoplenty:prairie",
+                "biomesoplenty:dryland",
+                "biomesoplenty:lavender_forest",
+                "biomesoplenty:forested_field",
+                "minecraft:stony_shore"],
+      "dimension": "minecraft:overworld",
+      "instreet": true,
+      "incity": true,
+      "minlight": 0,
+      "maxlight": 6,
+      "minheight": 71,
+      "result": "allow",
+      "healthadd": -16
+    },
+    {
+      "mob": "undead_revamp2:bomber",
+      "biome": [
+                "minecraft:plains",
+                "minecraft:savanna",
+                "minecraft:sunflower_plains",
+                "minecraft:snowy_plains",
+                "minecraft:snowy_taiga",
+                "minecraft:grove",
+                "biomesoplenty:field",
+                "biomesoplenty:lavender_field"],
+      "dimension": "minecraft:overworld",
+      "incity": true,
+      "minlight": 0,
+      "maxlight": 6,
+      "minheight": 71,
+      "result": "allow",
+      "nbt": {
+        "Attributes": [
+          {
+            "Base": 2.0,
+            "Name": "generic.armor"
+          }
+        ]
+      }
+    },
+    {
+      "mob": "undead_revamp2:thesmoker",
+      "dimension": "minecraft:overworld",
+      "minlight": 0,
+      "maxlight": 6,
+      "minheight": 45,
+      "result": "allow",
+      "nbt": {
+        "Attributes": [
+          {
+            "Base": 2.0,
+            "Name": "generic.armor"
+          }
+        ]
+      }
+    },
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "incity": true,
+        "onjoin": true,
+        "minheight": 61,
+        "random": 0.15,
+        "result": "default",
+        "armorhelmet": ["apocalypsenow:black_motorcycle_helmet_helmet",
+                        "apocalypsenow:red_motorcycle_helmet_helmet",
+                        "apocalypsenow:bikers_helmet",
+                        "apocalypsenow:red_bikers_helmet",
+                        "apocalypsenow:black_bikers_helmet",
+                        "apocalypsenow:green_bikers_helmet"]
+    },
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "biome": ["minecraft:beach"],
+        "onjoin": true,
+        "random": 0.3,
+        "result": "default",
+        "armorchest": ["apocalypsenow:life_jacket_bullet_helmet_chestplate" ]
+    },
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "biome": ["minecraft:snowy_plains", "minecraft:snowy_taiga", "minecraft:snowy_slopes"],
+        "onjoin": true,
+        "random": 0.3,
+        "result": "default",
+        "armorhelmet": ["apocalypsenow:hunting_helmet"],
+        "armorchest": ["apocalypsenow:hunting_chestplate"]
+    },
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "dimension": "minecraft:overworld",
+        "building": [
+          "c70cities:multi_hospital_0",
+          "c70cities:multi_hospital_1",
+          "c70cities:multi_hospital_2",
+          "c70cities:multi_hospital_3"],
+        "onjoin": true,
+        "minheight": 61,
+        "random": 0.85,
+        "result": "default",
+        "armorhelmet": "apocalypsenow:nurse_helmet",
+        "armorchest": "apocalypsenow:nurse_chestplate",
+        "armorlegs": "apocalypsenow:nurse_leggings",
+        "armorboots": "apocalypsenow:nurse_boots"
+    },
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "building": [
+          "c70cities:building_policeoffice1",
+          "c70cities:building_policeoffice1_90",
+          "c70cities:building_policeoffice1_180",
+          "c70cities:building_policeoffice1_270"],
+        "onjoin": true,
+        "minheight": 61,
+        "random": 0.85,
+        "result": "default",
+        "armorhelmet": "apocalypsenow:police_helmet",
+        "armorchest": "apocalypsenow:police_chestplate",
+        "armorlegs": "apocalypsenow:police_leggings",
+        "armorboots": "apocalypsenow:police_boots"
+    },
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "incity": true,
+        "onjoin": true,
+        "minheight": 61,
+        "random": 0.05,
+        "result": "default",
+        "armorhelmet": "apocalypsenow:police_helmet",
+        "armorchest": "apocalypsenow:police_chestplate",
+        "armorlegs": "apocalypsenow:police_leggings",
+        "armorboots": "apocalypsenow:police_boots"
+    },
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "biome": ["biomesoplenty:mediterranean_forest",
+                  "biomesoplenty:mystic_grove",
+                  "biomesoplenty:cherry_blossom_grove",
+                  "biomesoplenty:bamboo_grove",
+                  "biomesoplenty:clover_patch",
+                  "biomesoplenty:pumpkin_patch",
+                  "biomesoplenty:fir_clearing",
+                  "biomesoplenty:shrubland",
+                  "biomesoplenty:scrubland",
+                  "biomesoplenty:grassland",
+                  "biomesoplenty:pasture",
+                  "biomesoplenty:prairie",
+                  "biomesoplenty:dryland",
+                  "biomesoplenty:lavender_forest",
+                  "biomesoplenty:forested_field",
+                  "minecraft:stony_shore"],
+        "incity": true,
+        "onjoin": true,
+        "minheight": 61,
+        "random": 0.1,
+        "result": "default",
+        "armorhelmet": "apocalypsenow:fire_figther_helmet",
+        "armorchest": "apocalypsenow:fire_figther_chestplate",
+        "armorlegs": "apocalypsenow:fire_figther_leggings",
+        "armorboots": "apocalypsenow:fire_figther_boots"
+    },
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "biome": [
+					"minecraft:plains",
+					"minecraft:savanna",
+					"minecraft:sunflower_plains",
+					"minecraft:snowy_plains",
+					"minecraft:snowy_taiga",
+					"minecraft:grove",
+					"biomesoplenty:field",
+					"biomesoplenty:lavender_field"],
+        "incity": true,
+        "onjoin": true,
+        "minheight": 61,
+        "random": 0.1,
+        "result": "default",
+        "armorhelmet": "apocalypsenow:red_football_armor_helmet",
+        "armorchest": "apocalypsenow:red_football_armor_chestplate",
+        "armorlegs": "apocalypsenow:red_football_armor_leggings",
+        "armorboots": "apocalypsenow:red_football_armor_boots"
+    },
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "biome": [
+					"minecraft:plains",
+					"minecraft:savanna",
+					"minecraft:sunflower_plains",
+					"minecraft:snowy_plains",
+					"minecraft:snowy_taiga",
+					"minecraft:grove",
+					"biomesoplenty:field",
+					"biomesoplenty:lavender_field"],
+        "incity": true,
+        "onjoin": true,
+        "minheight": 61,
+        "random": 0.1,
+        "result": "default",
+        "armorhelmet": "apocalypsenow:blue_football_armor_helmet",
+        "armorchest": "apocalypsenow:blue_football_armor_chestplate",
+        "armorlegs": "apocalypsenow:blue_football_armor_leggings",
+        "armorboots": "apocalypsenow:blue_football_armor_boots"
+    },
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "incity": true,
+        "onjoin": true,
+        "minheight": 61,
+        "random": 0.05,
+        "result": "default",
+        "armorhelmet": "apocalypsenow:u_sarmy_helmet",
+        "armorchest": "apocalypsenow:u_sarmy_chestplate",
+        "armorlegs": "apocalypsenow:u_sarmy_leggings",
+        "armorboots": "apocalypsenow:u_sarmy_boots"
+    },
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+        "incity": true,
+        "onjoin": true,
+        "minheight": 61,
+        "random": 0.1,
+        "result": "default",
+        "armorhelmet": "apocalypsenow:u_sarmy_helmet",
+        "armorchest": "apocalypsenow:u_sarmy_chestplate",
+        "armorlegs": "apocalypsenow:u_sarmy_leggings",
+        "armorboots": "apocalypsenow:u_sarmy_boots"
+    },
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "building": [
+            "c70cities:multi_militarybase_0",
+            "c70cities:multi_militarybase_1",
+            "c70cities:multi_militarybase_2",
+            "c70cities:multi_militarybase_3"],
+        "onjoin": true,
+        "minheight": 61,
+        "random": 0.75,
+        "result": "default",
+        "armorhelmet": "apocalypsenow:canadian_army_helmet",
+        "armorchest": "apocalypsenow:canadian_army_chestplate",
+        "armorlegs": "apocalypsenow:canadian_army_leggings",
+        "armorboots": "apocalypsenow:canadian_army_boots"
+    },
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "incity": true,
+        "onjoin": true,
+        "minheight": 61,
+        "random": 0.1,
+        "result": "default",
+        "armorhelmet": "apocalypsenow:construction_helmet",
+        "armorchest": "apocalypsenow:construction_chestplate",
+        "armorlegs": "apocalypsenow:construction_leggings",
+        "armorboots": "apocalypsenow:construction_boots"
+    },
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "incity": true,
+        "onjoin": true,
+        "minheight": 61,
+        "random": 0.15,
+        "minspawndist": 10000,
+        "result": "default",
+        "armorhelmet": "apocalypsenow:hazmat_suit_helmet",
+        "armorchest": "apocalypsenow:hazmat_suit_chestplate",
+        "armorlegs": "apocalypsenow:hazmat_suit_leggings",
+        "armorboots": "apocalypsenow:hazmat_suit_boots"
+    },
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "incity": true,
+        "onjoin": true,
+        "minheight": 61,
+        "random": 0.01,
+        "minspawndist": 10000,
+        "result": "default",
+        "nbt": {
+            "HandItems":[
+              {
+                "id":"air",
+                "Count":1
+              },
+              {
+                "id":"fishing_rod",
+                "Count":1
+              }]
+          }
+    },
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "incity": true,
+        "onjoin": true,
+        "minheight": 61,
+        "random": 0.01,
+        "minspawndist": 10000,
+        "result": "default",
+        "nbt": {
+            "HandItems":[
+              {
+                "id":"air",
+                "Count":1
+              },
+              {
+                "id":"iron_pickaxe",
+                "Count":1
+              }]
+          }
+    },
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+        "minheight": 61,
+        "result": "deny"
+    },
+    {
+      "mob": ["mutationcraft:assimilated_bear",
+              "mutationcraft:assimilated_cow",
+              "mutationcraft:assimilated_donkey",
+              "mutationcraft:assimilated_horse",
+              "mutationcraft:assimilated_fox",
+              "mutationcraft:assimilated_sheep",
+              "mutationcraft:assimilated_villager",
+              "mutationcraft:assimilated_wolf",
+              "mutationcraft:assimilated_roamer",
+              "mutationcraft:developed_roamer"
+            ],
+      "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+      "minlight": 0,
+      "maxlight": 6, 
+      "incity": false,
+      "seesky": true,
+      "onjoin": true,
+      "result": "allow"
+    },
+    {
+      "mob": ["mutationcraft:assimilated_bear",
+              "mutationcraft:assimilated_cow",
+              "mutationcraft:assimilated_donkey",
+              "mutationcraft:assimilated_horse",
+              "mutationcraft:assimilated_fox",
+              "mutationcraft:assimilated_sheep",
+              "mutationcraft:assimilated_villager",
+              "mutationcraft:assimilated_wolf"
+            ],
+      "minlight": 0,
+      "maxlight": 6, 
+      "incity": false,
+      "seesky": true,
+      "onjoin": true,
+      "minspawndist": 15000,
+      "result": "allow"
+    },
+    {
+      "mob": ["mutationcraft:assimilated_human",
+              "mutationcraft:human_stage_1",
+              "mutationcraft:human_stage_2",
+              "mutationcraft:human_stage_3"],
+      "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+      "minlight": 0,
+      "maxlight": 6, 
+      "incity": true,
+      "onjoin": true,
+      "result": "allow"
+    },
+    {
+      "mob": ["mutationcraft:assimilated_human",
+              "mutationcraft:human_stage_1",
+              "mutationcraft:human_stage_2",
+              "mutationcraft:human_stage_3"],
+      "minlight": 0,
+      "maxlight": 6,
+      "incity": true,
+      "onjoin": true,
+      "minspawndist": 15000,
+      "result": "allow",
+      "damageadd": 6.0
+    },
+    {
+      "mob": ["mutationcraft:reductor"],
+      "minlight": 0,
+      "maxlight": 6,
+      "onjoin": true,
+      "minspawndist": 15000,
+      "result": "allow",
+      "damageadd": 10.0
+    },
+    {
+      "mob": "mutationcraft:parasitic_shooter",
+      "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+      "minlight": 0,
+      "maxlight": 6, 
+      "incity": true,
+      "onjoin": true,
+      "result": "allow",
+      "damageadd": 30.0,
+      "nbt": {
+        "Attributes": [
+          {
+            "Base": 4.0,
+            "Name": "generic.armor"
+          }
+        ]
+      }
+    },
+    {
+      "mob": "mutationcraft:parasitic_shooter",
+      "incontrol": false,
+      "onjoin": true,
+      "damageadd": 30.0,
+      "nbt": {
+        "Attributes": [
+          {
+            "Base": 4.0,
+            "Name": "generic.armor"
+          }
+        ]
+      }
+    },
+    {
+      "mob": "mutationcraft:resenter",
+      "minlight": 0,
+      "maxlight": 6,
+      "incity": true,
+      "instreet": true,
+      "nodespawn": true,
+      "onjoin": true,
+      "minspawndist": 15000,
+      "result": "allow",
+      "damageadd": 150.0,
+      "healthadd": 500.0,
+      "nbt": {
+        "Attributes": [
+          {
+            "Base": 6.0,
+            "Name": "generic.armor"
+          },
+          {
+            "Base": 6.0,
+            "Name": "generic.armor_toughness"
+          }
+        ]
+      }
+    },
+    {
+      "mob": "mutationcraft:resenter",
+      "incontrol": false,
+      "onjoin": true,
+      "damageadd": 150.0,
+      "healthadd": 500.0,
+      "nbt": {
+        "Attributes": [
+          {
+            "Base": 6.0,
+            "Name": "generic.armor"
+          },
+          {
+            "Base": 6.0,
+            "Name": "generic.armor_toughness"
+          }
+        ]
+      }
+    },
+    {
+      "mob": "mutationcraft:human_herder",
+      "minlight": 0,
+      "maxlight": 6,
+      "building": [
+          "c70cities:multi_megatower1_0",
+          "c70cities:multi_megatower1_1",
+          "c70cities:multi_megatower1_2",
+          "c70cities:multi_megatower1_3",
+          "c70cities:multi_megatower1_4",
+          "c70cities:multi_megatower1_5",
+          "c70cities:multi_megatower1_6",
+          "c70cities:multi_megatower1_7",
+          "c70cities:multi_megatower1_8"
+      ],
+      "block": ["minecraft:moss_block", "minecraft:grass_block"],
+      "nodespawn": true,
+      "onjoin": true,
+      "result": "allow",
+      "damageadd": 75.0,
+      "healthadd": 250.0,
+      "nbt": {
+        "Attributes": [
+          {
+            "Base": 4.0,
+            "Name": "generic.armor"
+          },
+          {
+            "Base": 4.0,
+            "Name": "generic.armor_toughness"
+          }
+        ]
+      }
+    },
+    {
+      "mob": "mutationcraft:human_herder",
+      "incontrol": false,
+      "onjoin": true,
+      "damageadd": 75.0,
+      "healthadd": 250.0,
+      "nbt": {
+        "Attributes": [
+          {
+            "Base": 4.0,
+            "Name": "generic.armor"
+          },
+          {
+            "Base": 4.0,
+            "Name": "generic.armor_toughness"
+          }
+        ]
+      }
+    },
+    {
+      "mob": "mutationcraft:assimilated_evoker",
+      "incontrol": false,
+      "onjoin": true,
+      "damageadd": 50.0,
+      "healthadd": 250.0
+    },
+    {
+      "mob": "mutationcraft:assimilated_jockey",
+      "dimension": "minecraft:overworld",
+      "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+      "minlight": 0,
+      "maxlight": 6,
+      "building": [
+          "c70cities:multi_militarybase_0",
+          "c70cities:multi_militarybase_1",
+          "c70cities:multi_militarybase_2",
+          "c70cities:multi_militarybase_3"
+      ],
+      "onjoin": true,
+      "result": "allow",
+      "damageadd": 20.0,
+      "speedmultiply": 2.0
+    },
+    {
+      "mob": "mutationcraft:assimilated_jockey",
+      "incontrol": false,
+      "onjoin": true,
+      "damageadd": 20.0,
+      "speedmultiply": 2.0
+    },
+    {
+      "mob": "mutationcraft:the_intoxicator",
+      "biome": ["biomesoplenty:wasteland", "biomesoplenty:wooded_wasteland"],
+      "minlight": 0,
+      "maxlight": 6, 
+      "seesky": true,
+      "onjoin": true,
+      "instreet": true,
+      "nodespawn": true,
+      "healthadd": 1000.0,
+      "damageadd": 500.0,
+      "result": "allow",
+      "nbt": {
+        "Attributes": [
+          {
+            "Base": 10.0,
+            "Name": "generic.armor"
+          },
+          {
+            "Base": 10.0,
+            "Name": "generic.armor_toughness"
+          }
+        ]
+      }
+    },
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "dimension": "minecraft:overworld",
+        "baby": true,
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "dimension": "minecraft:overworld",
+        "minlight": 0,
+        "maxlight": 6,
+        "seesky": true,
+        "result": "allow"
+    },
+    {
+        "mob": "minecraft:blaze",
+        "dimension": "minecraft:overworld",
+        "minlight": 0,
+        "maxlight": 6, 
+        "seesky": true,
+        "biome": ["biomesoplenty:volcanic_plains", "biomesoplenty:volcano"],
+        "result": "allow"
+    },
+    {
+        "mob": "minecraft:hoglin",
+        "dimension": "minecraft:overworld",
+        "minlight": 0,
+        "maxlight": 6, 
+        "seesky": true,
+        "biome": ["biomesoplenty:volcanic_plains", "biomesoplenty:volcano"],
+        "result": "allow"
+    },
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+        "dimension": "minecraft:overworld",
+        "mincount": {
+          "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned"],
+          "amount": 100,
+          "perchunk": true
+        },
+        "result": "deny"
+    },
+    {
+      "mob": "quark:shiba",
+      "dimension": "minecraft:overworld",
+      "mincount": {
+        "mob": "quark:shiba",
+        "amount": 5,
+        "perchunk": true
+      },
+      "result": "deny"
+    },
+    {
+      "mob": "minecraft:villager",
+      "dimension": "minecraft:overworld",
+      "mincount": {
+        "mob": "minecraft:villager",
+        "amount": 10,
+        "perchunk": true
+      },
+      "result": "deny"
+    },
+    {
+      "mob": "minecraft:hoglin",
+      "dimension": "minecraft:overworld",
+      "mincount": {
+        "mob": "minecraft:hoglin",
+        "amount": 10,
+        "perchunk": true
+      },
+      "result": "deny"
+    },
+    {
+        "mod": "alexsmobs",
+        "dimension": "minecraft:overworld",
+        "mincount": {
+          "amount": 4,
+          "mod": "alexsmobs",
+          "perchunk": true
+        },
+        "result": "deny"
+    },
+    {
+        "mod": "crittersandcompanions",
+        "dimension": "minecraft:overworld",
+        "mincount": {
+          "amount": 3,
+          "mod": "crittersandcompanions",
+          "perchunk": true
+        },
+        "result": "deny"
+    },
+    {
+      "mob": "minecraft:hoglin",
+      "dimension": "minecraft:overworld",
+      "result": "deny"
+    },
+    {
+      "mob": "minecraft:spider",
+      "dimension": "minecraft:overworld", 
+      "seesky": true,
+      "result": "deny"
+    },
+    {
+      "mob": [
+              "minecraft:creeper",
+              "minecraft:enderman",
+              "minecraft:skeleton",
+              "minecraft:witch",
+              "minecraft:stray",
+              "minecraft:phantom",
+              "minecraft:witch",
+              "quark:forgotten",
+              "alexsmobs:bone_serpent",
+              "alexsmobs:bunfungus",
+              "alexsmobs:centipede_head",
+              "alexsmobs:bone_serpent",
+              "alexsmobs:flutter",
+              "alexsmobs:froststalker",
+              "alexsmobs:dropbear",
+              "alexsmobs:guster",
+              "alexsmobs:sunbird",
+              "alexsmobs:straddler",
+              "alexsmobs:spectre",
+              "alexsmobs:bone_serpent",
+              "alexsmobs:soul_vulture",
+              "alexsmobs:sea_bear",
+              "alexsmobs:mungus",
+              "alexsmobs:void_worm",
+              "alexsmobs:toucan"],
+      "result": "deny"
+    },
+    {
+      "mob": ["alexsmobs:leafcutter_ant"],
+      "onjoin": true,
+      "result": "deny"
+    },
+    {
+        "mob": ["mutationcraft:necroptor", "mutationcraft:miter"],
+        "dimension": "minecraft:overworld",
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+      "mod": "mutationcraft",
+      "dimension": "minecraft:overworld",
+      "result": "deny"
+    },
+    {
+      "mob": "minecraft:villager",
+      "dimension": "minecraft:overworld",
+      "incontrol": true,
+      "result": "deny"
+    },
+    {
+      "mob": "quark:shiba",
+      "dimension": "minecraft:overworld",
+      "result": "deny"
+    },
+    {
+      "mob": "minecraft:blaze",
+      "dimension": "minecraft:overworld",
+      "result": "deny"
+    },
+    {
+      "mod": "zombiemobs",
+      "dimension": "minecraft:overworld",
+      "onjoin": true,
+      "result": "deny"
+    },
+    {
+      "mod": "undead_revamp2",
+      "dimension": "minecraft:overworld",
+      "result": "deny"
+    },
+    {
+      "mod": "apocalypsenow",
+      "dimension": "minecraft:overworld",
+      "result": "deny"
+    },
+    {
+      "mod": "artifacts",
+      "dimension": "minecraft:overworld",
+      "onjoin": true,
+      "result": "deny"
+    }
+]

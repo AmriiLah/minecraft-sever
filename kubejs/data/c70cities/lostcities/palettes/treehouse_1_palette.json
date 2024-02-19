@@ -1,0 +1,164 @@
+{
+  "name": "treehouse_1_palette",
+  "palette": [
+    {
+      "char": "a",
+      "block": "minecraft:dirt"
+    },
+    {
+      "char": "b",
+      "block": "minecraft:farmland"
+    },
+    {
+      "char": "c",
+      "block": "minecraft:coarse_dirt"
+    },
+    {
+      "char": "d",
+      "block": "minecraft:oak_log[axis=y]"
+    },
+    {
+      "char": "e",
+      "block": "minecraft:dirt_path"
+    },
+    {
+      "char": "f",
+      "block": "minecraft:oak_fence[waterlogged=true]"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:oak_fence[waterlogged=false]"
+    },
+    {
+      "char": "h",
+      "block": "minecraft:oak_log[axis=z]"
+    },
+    {
+      "char": "i",
+      "block": "minecraft:stripped_oak_log[axis=z]"
+    },
+    {
+      "char": "j",
+      "block": "minecraft:oak_button[face=floor,facing=north]"
+    },
+    {
+      "char": "k",
+      "block": "minecraft:oak_button[face=floor,facing=west]"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:composter"
+    },
+    {
+      "char": "m",
+      "block": "minecraft:ladder[waterlogged=false,facing=south]"
+    },
+    {
+      "char": "n",
+      "block": "minecraft:oak_button[face=floor,facing=east]"
+    },
+    {
+      "char": "o",
+      "block": "minecraft:stone_brick_stairs[waterlogged=false,half=top,shape=straight,facing=west]"
+    },
+    {
+      "char": "p",
+      "block": "minecraft:stone_brick_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "q",
+      "block": "minecraft:stone_brick_stairs[waterlogged=false,half=top,shape=straight,facing=east]"
+    },
+    {
+      "char": "r",
+      "block": "minecraft:stone_brick_slab[waterlogged=false,type=double]"
+    },
+    {
+      "char": "s",
+      "block": "minecraft:oak_trapdoor[waterlogged=false,half=bottom,facing=north,open=true]"
+    },
+    {
+      "char": "t",
+      "block": "minecraft:stone_brick_slab[waterlogged=false,type=bottom]"
+    },
+    {
+      "char": "u",
+      "block": "minecraft:furnace[lit=false,facing=west]"
+    },
+    {
+      "char": "w",
+      "block": "minecraft:oak_trapdoor[waterlogged=false,half=bottom,facing=east,open=true]"
+    },
+    {
+      "char": "x",
+      "block": "minecraft:smoker[lit=false,facing=west]"
+    },
+    {
+      "char": "y",
+      "block": "minecraft:crafting_table"
+    },
+    {
+      "char": "A",
+      "block": "minecraft:oak_trapdoor[waterlogged=false,half=bottom,facing=south,open=true]"
+    },
+    {
+      "char": "B",
+      "block": "minecraft:oak_trapdoor[waterlogged=false,half=bottom,facing=west,open=true]"
+    },
+    {
+      "char": "C",
+      "block": "lootr:lootr_chest[waterlogged=false,facing=east,type=single]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "D",
+      "block": "minecraft:potted_oak_sapling"
+    },
+    {
+      "char": "E",
+      "block": "minecraft:oak_log[axis=x]"
+    },
+    {
+      "char": "F",
+      "block": "minecraft:stone_brick_stairs[waterlogged=false,half=bottom,shape=straight,facing=south]"
+    },
+    {
+      "char": "I",
+      "block": "minecraft:lantern[waterlogged=false,hanging=true]"
+    },
+    {
+      "char": "J",
+      "block": "minecraft:stone_brick_stairs[waterlogged=false,half=bottom,shape=straight,facing=north]"
+    },
+    {
+      "char": "K",
+      "block": "minecraft:oak_leaves"
+    },
+    {
+      "char": "L",
+      "block": "minecraft:oak_slab[waterlogged=false,type=top]"
+    },
+    {
+      "char": "M",
+      "block": "minecraft:brown_bed[part=head,facing=north,occupied=false]",
+      "tag": {
+        "id": "minecraft:bed"
+      }
+    },
+    {
+      "char": "N",
+      "block": "minecraft:brown_bed[part=foot,facing=north,occupied=false]",
+      "tag": {
+        "id": "minecraft:bed"
+      }
+    },
+    {
+      "char": "O",
+      "block": "minecraft:cobweb"
+    },
+    {
+      "char": "P",
+      "block": "hardcore_torches:unlit_lantern[waterlogged=false,hanging=false]"
+    }
+  ]
+}
