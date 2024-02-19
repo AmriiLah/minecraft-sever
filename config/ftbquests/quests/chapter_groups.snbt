@@ -1,8 +1,0 @@
-{
-	chapter_groups: [
-		{ id: "19B20CC85415EF9B", title: "Campaign" }
-		{ id: "3E586F2160161EEA", title: "Exploration" }
-		{ id: "48161D2AD6657389", title: "Combat" }
-		{ id: "49D52BD6447C5CC0", title: "Tech" }
-	]
-}
