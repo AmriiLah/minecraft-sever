@@ -1,1 +1,1 @@
-java -Xmx7G -Xms7G -jar server.jar
+java -Xmx14G -Xms14G -jar server.jar
